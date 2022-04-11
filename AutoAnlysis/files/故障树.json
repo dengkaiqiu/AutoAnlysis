@@ -1,0 +1,57 @@
+{
+  "Description": "ZC子系统故障树",
+  "staticConfigParam": "ret,errmsg",
+  "FlexibleConfigParam": "dbName,applog,platlog,appSplitKeystr,appSplitMatchstr,platSplitKeystr,platSplitMatchstr,devID",
+  "loadScript": {
+    "loadpath": ".\\lua\\",
+    "loadName": "main.lua",
+    "loadScriptType": "Lua"
+  },
+  "execFun": [
+    {
+      "funName": "tool_init",
+      "index": "1",
+      "requireParam": "dbName,applog,platlog,appSplitKeystr,appSplitMatchstr,platSplitKeystr,platSplitMatchstr",
+      "returnParam": "ret,errmsg"
+    }
+  ],
+  "errChildren": [
+    {
+      "Description": "列车降级类故障子树",
+      "staticConfigParam": "ret,errmsg",
+      "FlexibleConfigParam": "devID",
+      "index": "1",
+      "errBranchs": [
+        {
+          "Description": "前方存在对象车导致本车降级",
+          "staticConfigParam": "ret,errmsg",
+          "FlexibleConfigParam": "devID",
+          "index": "1",
+          "execFun": [
+            {
+              "funName": "auto_eb_branch1",
+              "index": "1",
+              "requireParam": "devID",
+              "returnParam": "ret,errmsg"
+            }
+          ]
+        },
+        {
+          "Description": "列车闯红灯导致列车降级",
+          "staticConfigParam": "ret,errmsg",
+          "FlexibleConfigParam": "devID",
+          "index": "2",
+          "execFun": [
+            {
+              "funName": "auto_eb_branch2",
+              "index": "1",
+              "requireParam": "devID",
+              "returnParam": "ret,errmsg"
+            }
+          ]
+        }
+
+      ]
+    }
+  ]
+}

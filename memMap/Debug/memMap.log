@@ -1,0 +1,15 @@
+﻿  memMap.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(50,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  MemString.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\ConvertClass.h(108,2): warning C4091: “static ”: 没有声明变量时忽略“ConvertClass”的左侧
+  jsonHandleModel.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(50,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  dllmain.cpp
+  memMapDll.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\memMap\memMapDll.h(17,54): warning C4190: “LoadJson”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+D:\software install\Visual Studio\Visual Studio 2019\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(50,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\memMap\memMapDll.cpp(12,1): warning C4190: “LoadJson”有指定的 C 链接，但返回了与 C 不兼容的 UDT“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”
+D:\software install\Visual Studio\Visual Studio 2019\VC\Tools\MSVC\14.29.30133\include\xstring(4905): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+  正在生成代码...
+  memMap.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\Debug\memMap.lib
