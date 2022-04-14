@@ -3,6 +3,7 @@
 
 
 
+
 //拆分条件
 void split(const string& str, const string& delim, vector<string>& listStr)
 {
@@ -235,7 +236,7 @@ string errTree::Load(const string& jsonFile)
 	string errmsg = "";
 	string fileName;
 	
-	fileName.append(_path).append(jsonFile);
+	fileName.append(_path).append("\\files\\").append(jsonFile);
 
 	if (!FileHandle::exists_file(fileName))     //判断Json文件是否存在
 		return fileName + ",not exit.";
@@ -355,7 +356,7 @@ string errTree::LoadScript(vector<ItemInfo>& Item)
 
         if (getConfigValue("loadScriptType") == "Lua")
         {
-            string scriptpath = getConfigValue("loadpath") + getConfigValue("loadName");
+            string scriptpath = _path + getConfigValue("loadpath") + getConfigValue("loadName");
             //加载脚本
             LoadLua(scriptpath);
         }

@@ -32,6 +32,13 @@ namespace fileHandle
 			return path.substr(pos1 + 1);
 		}
 
+		//获取文件的路径
+		static string getFilePath(const string& path)
+		{
+			int pos1 = path.find_last_of('\\');
+			return path.substr(0,pos1);
+		}
+
 		//获取文件的前缀
 		static string getFilesuffix(const string& path)
 		{

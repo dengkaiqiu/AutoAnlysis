@@ -1,9 +1,19 @@
 ﻿  AutoAnlysis.cpp
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\bigFileMap.h(88,99): warning C4244: “参数”: 从“__int64”转换到“SIZE_T”，可能丢失数据
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(50,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\bigFileMap.h(88,99): warning C4244: “参数”: 从“__int64”转换到“SIZE_T”，可能丢失数据
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  memMap.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  MemString.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\ConvertClass.h(108,2): warning C4091: “static ”: 没有声明变量时忽略“ConvertClass”的左侧
+  BigFileMapModel.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\bigFileMap.h(88,99): warning C4244: “参数”: 从“__int64”转换到“SIZE_T”，可能丢失数据
+  dbHandleModel.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
   errorTreeModel.cpp
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(50,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  jsonHandleModel.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
   luaModel.cpp
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(50,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
   正在生成代码...
-  AutoAnlysis.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\Debug\AutoAnlysis.exe
+  AutoAnlysis.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\Debug\AutoAnlysis.exe

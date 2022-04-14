@@ -1,4 +1,4 @@
 ﻿  DbHandle.cpp
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\sqlIteLibrary\src\DbHandle.cpp(78,2): warning C4091: “static ”: 没有声明变量时忽略“StringConvert”的左侧
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\sqlIteLibrary\src\DbHandle.cpp(252): warning C4715: “sqlite::DbHandle::ExecuteNonQuery”: 不是所有的控件路径都返回值
-  sqlIteLibrary.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\Debug\sqlIteLibrary.lib
+E:\study\JsonTest_lib\AutoAnlysis\sqlIteLibrary\src\DbHandle.cpp(78,2): warning C4091: “static ”: 没有声明变量时忽略“StringConvert”的左侧
+E:\study\JsonTest_lib\AutoAnlysis\sqlIteLibrary\src\DbHandle.cpp(252): warning C4715: “sqlite::DbHandle::ExecuteNonQuery”: 不是所有的控件路径都返回值
+  sqlIteLibrary.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\Debug\sqlIteLibrary.lib

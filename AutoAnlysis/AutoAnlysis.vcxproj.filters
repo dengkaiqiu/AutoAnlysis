@@ -83,5 +83,17 @@
     <ClInclude Include="src\include\memMapTest.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\lauxlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lua.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\luaconf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lualib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

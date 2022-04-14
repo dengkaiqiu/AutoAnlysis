@@ -9,6 +9,7 @@
 
 using namespace std;
 
+
 //º¯ÊıÀà
 class FunClass
 {

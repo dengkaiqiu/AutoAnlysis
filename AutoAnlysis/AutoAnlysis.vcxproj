@@ -152,6 +152,10 @@
     <ClCompile Include="src\model\luaModel.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\lauxlib.h" />
+    <ClInclude Include="include\lua.h" />
+    <ClInclude Include="include\luaconf.h" />
+    <ClInclude Include="include\lualib.h" />
     <ClInclude Include="src\include\bigFileMap.h" />
     <ClInclude Include="src\include\ConvertClass.h" />
     <ClInclude Include="src\include\DbHandle.h" />

@@ -3,7 +3,7 @@
   "staticConfigParam": "ret,errmsg",
   "FlexibleConfigParam": "dbName,applog,platlog,appSplitKeystr,appSplitMatchstr,platSplitKeystr,platSplitMatchstr,devID",
   "loadScript": {
-    "loadpath": ".\\lua\\",
+    "loadpath": "\\lua\\",
     "loadName": "main.lua",
     "loadScriptType": "Lua"
   },

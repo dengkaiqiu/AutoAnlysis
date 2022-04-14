@@ -1,8 +1,16 @@
-﻿  bigfilemapDll.cpp
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\bigFileMap.h(88,99): warning C4244: “参数”: 从“__int64”转换到“SIZE_T”，可能丢失数据
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\AutoAnlysis\src\include\ConvertClass.h(108,2): warning C4091: “static ”: 没有声明变量时忽略“ConvertClass”的左侧
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(268,12): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(346,17): warning C4018: “<”: 有符号/无符号不匹配
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(389,12): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
-E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(415,18): warning C4018: “<”: 有符号/无符号不匹配
-  bigfilemap.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\Debug\bigfilemap.dll
+﻿  MemString.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\ConvertClass.h(108,2): warning C4091: “static ”: 没有声明变量时忽略“ConvertClass”的左侧
+  BigFileMapModel.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\bigFileMap.h(88,99): warning C4244: “参数”: 从“__int64”转换到“SIZE_T”，可能丢失数据
+  bigfilemapDll.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\bigFileMap.h(88,99): warning C4244: “参数”: 从“__int64”转换到“SIZE_T”，可能丢失数据
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\ConvertClass.h(108,2): warning C4091: “static ”: 没有声明变量时忽略“ConvertClass”的左侧
+E:\study\JsonTest_lib\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(268,12): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+E:\study\JsonTest_lib\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(346,17): warning C4018: “<”: 有符号/无符号不匹配
+E:\study\JsonTest_lib\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(389,12): warning C4244: “=”: 从“lua_Integer”转换到“int”，可能丢失数据
+E:\study\JsonTest_lib\AutoAnlysis\bigfilemap\bigfilemapDll.cpp(415,18): warning C4018: “<”: 有符号/无符号不匹配
+  dllmain.cpp
+  正在生成代码...
+  LINK : 没有找到 E:\study\JsonTest_lib\AutoAnlysis\Debug\bigfilemap.dll 或上一个增量链接没有生成它；正在执行完全链接
+    正在创建库 E:\study\JsonTest_lib\AutoAnlysis\Debug\bigfilemap.lib 和对象 E:\study\JsonTest_lib\AutoAnlysis\Debug\bigfilemap.exp
+  bigfilemap.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\Debug\bigfilemap.dll

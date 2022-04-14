@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<versionzone>
+  <zone>
+    <title>DataFormat_IFAO16.1.xml</title>
+    <version>
+        <versionNO>208.22.5.71</versionNO>
+            <versionNO>208.22.4.71</versionNO>
+        </version>
+  </zone>
+  <zone>
+    <title>DataFormat_IFAO22.0.xml</title>
+    <version>
+      <versionNO>208.22.4.81</versionNO>
+      <versionNO>208.22.4.82</versionNO>
+      <versionNO>208.22.4.83</versionNO>
+      <versionNO>208.22.4.84</versionNO>
+      <versionNO>208.22.4.85</versionNO>
+      <versionNO>208.22.4.86</versionNO>
+      <versionNO>208.22.4.87</versionNO>
+    </version>
+  </zone> 
+  <zone>
+    <title>DataFormat_IFAO22.2.xml</title>
+    <version>
+      <versionNO>208.22.4.88</versionNO>
+      <versionNO>208.22.4.89</versionNO>
+      <versionNO>208.22.4.90</versionNO>
+      <versionNO>208.22.4.91</versionNO>
+      <versionNO>208.22.4.93</versionNO>
+      <versionNO>208.22.4.94</versionNO>
+    </version>
+  </zone> 
+  <zone>
+    <title>DataFormat_IFAO18.0.xml</title>
+    <version>
+      <versionNO>208.22.4.76</versionNO>
+      <versionNO>208.22.4.75</versionNO>
+	</version>
+  </zone>
+</versionzone>
