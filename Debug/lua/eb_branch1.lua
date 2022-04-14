@@ -24,14 +24,21 @@ function _eb_branch1.hit()
 	local lastcycle = 0;
 	local curcycle =0;
 	
+	
 	--打开数据库
-	_g.dbOp.new(_g.dbName);
-		
+	local errmsg = _g.dbOp.new(_g.dbName);
+	
+	if(string.len(errmsg) ~= 0) then
+		print(errmsg)
+		return hitcycle
+	end
+	
 	local sql = "SELECT "..[[序列号]]..","..[[列车类型]].." from ".._eb_branch1.tablename.." where "..[[列车ID]].."=='".._eb_branch1.devID.."'";
 	
 	_g.dbOp.prepare(sql);
 	
 	local row = _g.dbOp.getRow()
+	
 	while(row ~= nil)
 	do
 		--记住当前周期

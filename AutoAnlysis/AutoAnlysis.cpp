@@ -90,9 +90,9 @@ void autoAnlysis(string path)
         //设置配置值
         obj.setConfigValue("ret", "0xaa");
         obj.setConfigValue("errmsg", "");
-        obj.setConfigValue("dbName", "E:\\study\\JsonTest_lib\\AutoAnlysis\\AutoAnlysis\\log\\DBLog\\20211225_22.13.20.db");
-        obj.setConfigValue("applog", "E:\\study\\JsonTest_lib\\AutoAnlysis\\AutoAnlysis\\log\\zcAppDebugChar\\20211225_22.13.20.txt");
-        obj.setConfigValue("platlog", "E:\\study\\JsonTest_lib\\AutoAnlysis\\AutoAnlysis\\log\\hostPlaDebug\\20211225_22.13.20.txt");
+        obj.setConfigValue("dbName", "E:\\study\\JsonTest_lib\\AutoAnlysis\\log\\DBLog\\20211225_22.13.20.db");
+        obj.setConfigValue("applog", "E:\\study\\JsonTest_lib\\AutoAnlysis\\log\\zcAppDebugChar\\20211225_22.13.20.txt");
+        obj.setConfigValue("platlog", "E:\\study\\JsonTest_lib\\AutoAnlysis\\log\\hostPlaDebug\\20211225_22.13.20.txt");
         obj.setConfigValue("devID", TrainID);
         obj.setConfigValue("appSplitKeystr", "=====period");
         obj.setConfigValue("appSplitMatchstr", "=====period (.*) ZC App Start===== at (.*)");
@@ -139,10 +139,10 @@ int main()
     string path = FileHandle::getFilePath(szPath);
 
     //离线解析
-    OfflineParsing(path);
+   // OfflineParsing(path);
 
     //自动分析
-    //autoAnlysis(path);
+    autoAnlysis(path);
 
     system("pause");
 }
