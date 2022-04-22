@@ -27,13 +27,14 @@ void OfflineParsing(string path)
     PROCESS_INFORMATION pi;
     memset(&si, 0, sizeof(STARTUPINFO)); //初始化si在内存块中的值（详见memset函数）
     memset(&pi, 0, sizeof(PROCESS_INFORMATION)); //初始化si在内存块中的值（详见memset函数）
+
     si.cb = sizeof(STARTUPINFO);
     si.dwFlags = STARTF_USESHOWWINDOW;
     si.wShowWindow = SW_SHOW;
 
     //所要执行的命令
     string execmd = path + "\\OfflineParsing\\OfflineParsing.exe";
-    string cmdLine = " -logpath C:\\Users\\DKQ\\Desktop\\aa";
+    string cmdLine = " -logpath \"C:\\Users\\DKQ\\Desktop\\a a\"";
 
 
     char charexecmd[_MAX_PATH] = {'\0'};
@@ -55,7 +56,8 @@ void OfflineParsing(string path)
         &pi)             // Pointer to PROCESS_INFORMATION structure.  
         )
     {
-        //return MYRESULT::CREATE_PROCESS_ERROR;
+        cout << "Create Process error." << endl;
+        return;
     }
 
     // Wait until child process exits.  等待子进程执行结束返回
@@ -66,13 +68,14 @@ void OfflineParsing(string path)
 
     CloseHandle(pi.hProcess);
     CloseHandle(pi.hThread);
+
 }
 
 
 //测试自动分析
 void autoAnlysis(string path)
 {
-    string TrainID;
+    string TrainID = "";
     char temp[100] = { '\0' };
     sprintf_s(temp, "0x%04x", 10);
     TrainID = string(temp);
@@ -139,7 +142,7 @@ int main()
     string path = FileHandle::getFilePath(szPath);
 
     //离线解析
-   // OfflineParsing(path);
+    OfflineParsing(path);
 
     //自动分析
     autoAnlysis(path);

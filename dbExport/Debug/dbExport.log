@@ -1,1 +1,10 @@
-﻿  dbExport.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\Debug\dbExport.dll
+﻿  dbHandleModel.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  jsonHandleModel.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  dbExportDll.cpp
+E:\study\JsonTest_lib\AutoAnlysis\AutoAnlysis\src\include\FileHandle.h(57,3): warning C4091: “static ”: 没有声明变量时忽略“fileHandle::FileHandle”的左侧
+  dllmain.cpp
+  正在生成代码...
+    正在创建库 E:\study\JsonTest_lib\AutoAnlysis\Debug\dbExport.lib 和对象 E:\study\JsonTest_lib\AutoAnlysis\Debug\dbExport.exp
+  dbExport.vcxproj -> E:\study\JsonTest_lib\AutoAnlysis\Debug\dbExport.dll

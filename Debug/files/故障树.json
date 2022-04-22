@@ -49,6 +49,20 @@
               "returnParam": "ret,errmsg"
             }
           ]
+        },
+        {
+          "Description": "Õ®–≈÷–∂œ",
+          "staticConfigParam": "ret,errmsg",
+          "FlexibleConfigParam": "devID",
+          "index": "3",
+          "execFun": [
+            {
+              "funName": "auto_eb_branch2",
+              "index": "1",
+              "requireParam": "devID",
+              "returnParam": "ret,errmsg"
+            }
+          ]
         }
       ]
     }
